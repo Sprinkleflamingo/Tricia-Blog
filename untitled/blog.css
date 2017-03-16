@@ -1,0 +1,42 @@
+header {
+    text-align: center;
+    background-size: cover;
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/4b/c5/ed/4bc5edea08ab174d85b5551867d6faba.jpg");
+    color: #f8f8ff;
+}
+ul {
+    padding: 10px;
+    background: #000000
+}
+li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+}
+a  {
+    color: #f8f8ff;
+}
+h1 {
+    font-size: 1em;
+}
+head img{
+    margin: 40px 0px 0px 0px;
+    border: 7px solid #f8f8ff;
+    border-radius: 20px;
+}
+article {
+    max-width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+
+}
+@media (max-width: 500px){
+
+    h1{
+        font-size: 0.5em;
+    }
+    li{
+        display: block;
+        padding: 5px;
+    }
+}
+
