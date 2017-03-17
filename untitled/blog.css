@@ -3,10 +3,23 @@ header {
     background-size: cover;
     background-image: url("https://s-media-cache-ak0.pinimg.com/originals/4b/c5/ed/4bc5edea08ab174d85b5551867d6faba.jpg");
     color: #f8f8ff;
+    font-size: 1em;
 }
+img{
+    margin: 40px 0px 0px 0px;
+    border: 5px solid white;
+    border-radius: 20px;
+    height: 150px;
+    width: 150px;
+}
+header h1{
+    font-size: 3em;
+    font-family: Arial, sans-serif;
+    }
 ul {
     padding: 10px;
-    background: #000000
+    background: #000000;
+    font-family: Arial, sans-serif;
 }
 li {
     display: inline;
@@ -24,11 +37,24 @@ head img{
     border-radius: 20px;
 }
 article {
+    font-family: Arial, sans-serif;
     max-width: 500px;
     padding: 20px;
     margin: 0 auto;
 
 }
+button{
+    border-radius: 50px;
+    background-color: deeppink;
+    color: #000000;
+    padding: 5px;
+    display: inline;
+    font-family: Arial, sans-serif;
+    position: relative;
+    left: 70px;
+
+}
+
 @media (max-width: 500px){
 
     h1{
